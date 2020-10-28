@@ -47,11 +47,19 @@
 
 .search-container {
     padding: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+.search-click {
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 .search-input {
     display: flex;
     justify-content: center;
+    box-sizing: content-box;
 }
 
 .button-container {
@@ -61,6 +69,11 @@
     padding-top: 18px;
 }
 
+#search {
+    padding: .1rem;
+    font-size: 1.3rem;
+    width: 560px;
+}
 
 button {
     min-width: 150px;
