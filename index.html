@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://kit.fontawesome.com/15152c632a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/15152c632a.js" crossorigin="anonymous"></script>
 <title>Google</title>
 </head>
 <body>
-    <div class="links">
-        <a href="https://google.com">About</a>
-        <a href="https://google.com">Store</a>
-        <div id="right-links">
-            <a href="https://google.com">Gmail</a>
-            <a href="https://google.com">Images</a>
-            <a href="https://google.com"><img src="images/dots.png" width="20" height="20"></a>
-            <a href="https://google.com"><img src="./images/logo.png" width="35"
-            height="35"></a>
+    <div class="conatiner">
+        <div class="links">
+            <a class="about" href="https://google.com">About</a>
+            <a class= "store" href="https://google.com">Store</a>
+            <div class=right-container>
+                <div class="right-logos">
+                    <a href="https://google.com">Gmail</a>
+                    <a href="https://google.com">Images</a>
+                    <div class="dots">
+                        <a href="https://google.com"><img src="images/dots.png" width="20" height="20"></a>
+                    </div>
+                    <div class="logo">
+                        <a href="https://google.com"><img src="./images/logo.png" width="26"
+                        height="26"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="logo-container">
-        <img src="./images/Google.png" id="logo" width="313" height="293">
-    </div>
-    <div id="search-container">
-        <div class="search-input">
-            <span class="search-click">
-            <i class="fas fa-search"></i>
-            </span>
-            <input type="text" id="search">
+        <div class="logo-container">
+            <img src="./images/Google.png" id="logo" width="300" height="100">
         </div>
-        <div id="button-container">
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky!</button>
+        <div class="search-container">
+            <div class="search-input">
+                <span class="search-click">
+                <i class="fas fa-search"></i>
+                </span>
+                <input type="text" id="search">
+            </div>
+            <div class="button-container">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky!</button>
+            </div>
         </div>
     </div>
 </body>

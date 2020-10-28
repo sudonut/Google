@@ -1,11 +1,52 @@
 *{
     margin: 0;
     padding: 0;
- /*   background-color: black; */
+    text-decoration: none;
+    font-family: 'Poppins', monospace;
+}
+
+.conainter {
+    display: flex;
 }
 
 .links {
-    padding: 6px;
+    position: relative;
+    padding: 15px;
+    display: flex;
+}
+
+.about {
+    padding-right: 15px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    flex-grow: 1;
+}
+
+.right-logos {
+    position: relative;
+    display: inline-flex;
+    justify-content: end;
+    justify-content: space-evenly;
+    width: 258.65px;
+    min-width: auto;
+}
+
+.dots {
+    padding: 2px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.search-container {
+    padding: 20px;
 }
 
 .search-input {
@@ -13,26 +54,13 @@
     justify-content: center;
 }
 
-#right-links {
-    display: flex;
-    justify-content: end;
-}
-
-#logo-container {
-    display: flex;
-    justify-content: center;
-}
-
-#search-container {
-    padding: 20px;
-}
-
-#button-container {
+.button-container {
     display: flex;
     grid-column-gap: 20px;
     justify-content: center;
     padding-top: 18px;
 }
+
 
 button {
     min-width: 150px;
